@@ -1,0 +1,61 @@
+/**
+ *	CHILD THEME CSS
+ */
+
+.collapsible-navs .menu-item-has-children::after{top:15px;}
+.menu_togs{width:40px;}
+.menu_togs span{height:2px;background:#fff;}
+.menu_togs span:nth-child(1){transform:translateY(-8px);}
+.menu_togs span:nth-child(3){transform:translateY(8px);}
+#main{min-height:50vh;}
+header#header{box-shadow:0 0 10px 10px rgba(0,0,0,0.2);}
+
+.sci i{color:#fff;background:var(--brand-color);}
+/* .fb i{background:#3b5998;} */
+/* .ig i{background:#962fbf;} */
+/* .tw i{background:#00acee;} */
+/* .yt i{background:#c4302b;} */
+/* .li i{background:#0072b1;} */
+/* .wa i{background:#075e54;} */
+/* .tt i{background:#ff0050;} */
+/* .pi i{background:#c8232c;} */
+/* .tg i{background:#0088cc;} */
+.main-menu.cta{position:relative;}
+.colophon .sci i{padding:3px 5px 2px;}
+.title_over_video .page_title{bottom:10vh;text-align:left;padding:20px 30px;background:rgba(0,0,0,0.7);width:max-content;}
+
+.wp-block-search__inside-wrapper{overflow:hidden;border:1px solid;border-radius:50px;background:var(--content-background);}
+.wp-block-search__input,.wp-block-search__button{border:0;background:none;margin:0;}
+.wp-block-search__button{width:60px;}
+
+.comment-body{border:2px solid #ddd;padding:2rem;}
+#reply-title{font-size:1.7rem;margin-top:4rem;}
+
+.widget-title{border:0;padding:0;font-weight:800;letter-spacing:2px;}
+#prime2g_toTop p{border-radius:15px;}
+
+@media(min-width:821px){
+#main_nav .flexnw{justify-content:space-between;}
+#main_nav .custom-logo{margin:0;transition:0.3s;}
+.pop2 #main_nav .custom-logo{width:50px;}
+.pop2 #main_nav{background:var(--brand-color);}
+.collapsible-navs li a{padding:4px 16px;margin:0 5px;border-radius:10px;text-transform:uppercase;font-weight:600;letter-spacing:1px;}
+.collapsible-navs .sub-menu{top:110%;border-radius:10px;}
+.collapsible-navs .sub-menu a{color:#333;margin:10px;}
+.collapsible-navs .sub-menu a:hover,.collapsible-navs .sub-menu a:focus{color:#fff;background:var(--brand-color);}
+.main-menu.cta{width:calc(100% - var(--med-pad));display:flex;justify-content:space-between;}
+.main_menu_wrap a{color:#fff;}
+}
+
+@media(min-width:1281px){
+.stretchEl{margin-left:calc(-1 * ((100vw - var(--site-width)) / 1.5));margin-right:calc(-1 * ((100vw - var(--site-width)) / 1.5));}
+}
+
+@media(max-width:1280px){
+.stretchEl{margin-left:calc(-1 * var(--min-pad));margin-right:calc(-1 * var(--min-pad));}
+}
+
+@media(max-width:820px){
+.menu_toggbar{background:var(--brand-color);}
+.logo_with_menu .custom-logo{max-height:40px;width:auto;}
+}
